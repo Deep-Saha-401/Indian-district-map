@@ -1,0 +1,27 @@
+*{
+margin: 0;
+padding:0;
+}
+body{
+background-color: #ffffff;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+#name{
+	position: absolute;
+	background-color: white;
+	width: fit-content;
+	opacity : 1;
+	border-radius : 5 px;
+	border : 2px solid pink;
+	front-size: 0.7rem;
+	}
+/* svg path{
+	cursor: pointer;
+	}
+svg path:hover{
+	fill: pink;
+} */
+#name.visible {
+    display: block; /* Show the name when it's visible */
+}
